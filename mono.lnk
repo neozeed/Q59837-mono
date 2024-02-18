@@ -1,0 +1,9 @@
+mono.obj thunk0.obj thunk1.obj
+mono /NOIG /NOD:OLDNAMES /NOD:LIBCRT
+nul.map
+..\..\lib2\libc.lib +
+..\..\lib2\os2386.lib +
+..\..\lib2\os2286.lib +
+vio16.lib +
+..\..\lib2\GNULIB.LIB
+nul.def;
