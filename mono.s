@@ -12,7 +12,6 @@ _main:
 	pushl %ebp
 	movl %esp,%ebp
 	subl $24,%esp
-
 	movl $753664,-12(%ebp)
 	movl $4000,-8(%ebp)
 	pushl $0
@@ -193,3 +192,5 @@ L22:
 ___main:
 	leave
 	ret
+
+
